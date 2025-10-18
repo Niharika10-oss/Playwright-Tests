@@ -1,6 +1,10 @@
 # Playwright End-to-End Tests (Python)
 
-A collection of end-to-end tests for a demo website built using **Playwright** and **Python**.
+A collection of end-to-end tests for a demo website built using **Playwright** and **Python**. 
+The main end-to-end script (test_e2e.py) currently executes the following flow:
+   1. Login Flow: Navigates to the demo site and successfully logs in with valid credentials.
+   2. E-commerce Workflow: Adds two distinct items to the shopping cart.
+   3. Validation: Verifies that the cart icon correctly displays a count of 2 items, confirming the successful addition of products.
 
 ---
 
